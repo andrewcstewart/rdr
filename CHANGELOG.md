@@ -11,6 +11,7 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 * added initial md templates
 
 ### Changes
+* additional dependencies added
 
 ### Fixes
 
