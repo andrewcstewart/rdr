@@ -1,0 +1,14 @@
+title: test_project
+version: 1
+
+rdr-path: .rdr
+dp-path: .rdr/protocols/dp
+mp-path: .rdr/protocols/mp
+ep-path: .rdr/protocols/ep
+
+identifier-prefix: "ID"
+identifier-padding: 4
+
+protocols:
+  methods:
+  
