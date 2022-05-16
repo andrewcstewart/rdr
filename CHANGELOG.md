@@ -7,6 +7,8 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
+* setup initial gitpod config
+* added initial cli, tasks, utils
 * added initial config default
 * added initial md templates
 

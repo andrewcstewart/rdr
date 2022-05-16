@@ -1,0 +1,11 @@
+tasks:
+  - init: |
+      echo 'TODO: build project'
+      pip3 install poetry
+      pip3 install --user poetry-kernel
+    command: |
+      echo 'TODO: start app'
+
+ports:
+  - port: 9000-9010
+    onOpen: ignore      
