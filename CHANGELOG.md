@@ -7,6 +7,7 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
+* setup MkDocs
 * setup github action
 * setup initial gitpod config
 * added initial cli, tasks, utils

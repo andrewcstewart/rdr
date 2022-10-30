@@ -14,6 +14,8 @@ HiYaPyCo = "^0.5.0"
 Logbook = "^1.5.3"
 rich = "^12.4.1"
 python-frontmatter = "^1.0.0"
+mkdocstrings = {extras = ["python"], version = "^0.19.0"}
+mkdocs-material = "^8.5.7"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
