@@ -1,0 +1,28 @@
+# Project information
+site_name: Research Design Records
+site_url: https://andrewcstewart.github.io/rdr/
+site_author: Andrew Stewart
+site_description: >-
+  Create a branded static site from a set of Markdown files to host the
+  documentation of your Open Source or commercial project
+
+theme:
+  name: "material"
+  palette:
+    primary: blue
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/github  
+
+repo_url: https://github.com/andrewcstewart/rdr
+repo_name: andrewcstewart/rdr
+
+plugins:
+- search
+- mkdocstrings
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes    
