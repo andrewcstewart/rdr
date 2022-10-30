@@ -23,9 +23,16 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
+      - uses: actions/setup-python@v4
+      - name: Run image
+        uses: abatilo/actions-poetry@v2
+      - name: Export poetry requirements.txt
+        run: poetry export -f requirements.txt -o requirements.txt --without-hashes
+
       - name: Deploy MkDocs
       # You may pin to the exact commit or the version.
       # uses: mhausenblas/mkdocs-deploy-gh-pages@b1bb7cbaa91997e57d601309aac18facb028ff7d
         uses: mhausenblas/mkdocs-deploy-gh-pages@1.25
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REQUIREMENTS: requirements.txt
