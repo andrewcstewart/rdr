@@ -1,0 +1,14 @@
+design:
+  - name: "RDR-0001"
+    methods:
+      - name: first_approach
+        protocol: MP0001
+        description: Replication study analysis.
+        
+    experiments:
+      - name: study_of_something
+        protocol: EP0001
+        description: Replica study of something.
+        design:
+          methods: [first_approach]
+          datasets: [dataset1, dataset2, dataset3]

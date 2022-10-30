@@ -1,0 +1,13 @@
+design:
+  - name: "RDR-0001"
+    datasets:
+    - name: dataset1
+      protocol: DP0001
+      description: A replica of the something collection.
+    - name: dataset2
+      protocol: DP0001
+      description: A replica of the something collection.
+    - name: dataset3
+      protocol: DP0001
+      description: A replica of the something collection.    
+      
